@@ -1,0 +1,160 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Combat Boost v5 — client-data.yaml for Up Top Martial Arts Academy
+# Fill every field before running: node fill-template.js
+# Run node fill-template.js --check to validate without building
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Identity ──────────────────────────────────────────────────────────────────
+SLUG: "up-top-ma"                         # Folder name, GitHub repo, Cloudflare Pages project
+GOOGLE_PLACE_ID: ""                     # From Places API lookup — e.g. ChIJtest123
+SCHOOL_NAME: "Up Top Martial Arts Academy"
+MARTIAL_ART: ""                         # e.g. Brazilian Jiu-Jitsu, Karate, Taekwondo, MMA
+SITE_URL: "https://www.uptopmartialarts.com"       # Full URL with https://
+DOMAIN: "uptopmartialarts.com"
+
+# ── Location ──────────────────────────────────────────────────────────────────
+CITY: ""
+STATE: ""                               # 2-letter abbreviation, e.g. MD
+ZIP: ""
+ADDRESS_LINE_1: ""
+
+# ── Contact ───────────────────────────────────────────────────────────────────
+PHONE: ""                               # Format: (555) 555-5555
+EMAIL: ""
+HOURS: ""                               # e.g. Mon–Fri 4pm–9pm · Sat 10am–2pm
+
+# ── Founding year (optional — leave blank if new school) ──────────────────────
+YEAR_FOUNDED: ""
+
+# ── Branding ──────────────────────────────────────────────────────────────────
+PRIMARY_COLOR: ""                       # e.g. #cc0000
+SECONDARY_COLOR: ""                     # e.g. #ffc700
+LOGO_IMAGE: brand_assets/logo.png       # Drop logo.png in brand_assets/ — auto-populated
+FACEBOOK_URL: ""                        # Full URL or leave blank
+INSTAGRAM_URL: ""                       # Full URL or leave blank
+
+# ── Hero section ──────────────────────────────────────────────────────────────
+# Drop hero.jpg in images/hero/ — HERO_IMAGE is auto-populated
+HERO_HEADLINE: ""                       # Main headline, e.g. "Train Like a Champion"
+HERO_SUBHEADLINE: ""                    # Optional subheadline below main headline
+HERO_SUBTEXT: ""                        # Supporting copy below the headline
+
+# ── Social proof ──────────────────────────────────────────────────────────────
+# SHOW_PROOF_BAR: set to "false" for new schools or unverified review counts
+SHOW_PROOF_BAR: "true"
+STAR_RATING: ""                         # From Google — must include decimal, e.g. 4.9
+REVIEW_COUNT: ""                        # Plain integer, e.g. 47 (no + symbol)
+
+# ── About section ─────────────────────────────────────────────────────────────
+ABOUT_TEXT: ""                          # 2 sentences about the school and community
+
+# ── Instructor 1 (required) ───────────────────────────────────────────────────
+# Drop photo in images/instructor/instructor-1/ — auto-populated
+INSTRUCTOR_1_NAME: ""
+INSTRUCTOR_1_TITLE: ""                  # e.g. Head Instructor & 4th Degree Black Belt
+INSTRUCTOR_1_BIO: ""                    # 2-3 sentences, third person
+
+# ── Instructor 2 (optional) ───────────────────────────────────────────────────
+# Drop photo in images/instructor/instructor-2/ — auto-populated
+INSTRUCTOR_2_NAME: ""
+INSTRUCTOR_2_TITLE: ""
+INSTRUCTOR_2_BIO: ""
+
+# ── Instructor 3 (optional) ───────────────────────────────────────────────────
+# Drop photo in images/instructor/instructor-3/ — auto-populated
+INSTRUCTOR_3_NAME: ""
+INSTRUCTOR_3_TITLE: ""
+INSTRUCTOR_3_BIO: ""
+
+# ── Program 1 (required) ──────────────────────────────────────────────────────
+# Drop photo in images/programs/program-1/ named main.jpg — auto-populated
+PROGRAM_1_NAME: ""
+PROGRAM_1_AGE_RANGE: ""                 # e.g. Ages 5–12
+PROGRAM_1_DAYS: ""                      # e.g. Mon & Wed / Tue & Thu
+PROGRAM_1_SESSION_LEN: ""              # e.g. 60-min classes
+PROGRAM_1_DESCRIPTION: ""              # 1-2 sentences
+PROGRAM_1_AUDIENCE_ADULTS: ""          # Set to "1" if adult program (shows adult gains copy)
+PROGRAM_1_AUDIENCE_KIDS: ""            # Set to "1" if kids program
+PROGRAM_1_AUDIENCE_TEENS: ""           # Set to "1" if teens program
+
+# ── Program 2 (optional) ──────────────────────────────────────────────────────
+PROGRAM_2_NAME: ""
+PROGRAM_2_AGE_RANGE: ""
+PROGRAM_2_DAYS: ""
+PROGRAM_2_SESSION_LEN: ""
+PROGRAM_2_DESCRIPTION: ""
+PROGRAM_2_AUDIENCE_ADULTS: ""
+PROGRAM_2_AUDIENCE_KIDS: ""
+PROGRAM_2_AUDIENCE_TEENS: ""
+
+# ── Program 3 (optional) ──────────────────────────────────────────────────────
+PROGRAM_3_NAME: ""
+PROGRAM_3_AGE_RANGE: ""
+PROGRAM_3_DAYS: ""
+PROGRAM_3_SESSION_LEN: ""
+PROGRAM_3_DESCRIPTION: ""
+PROGRAM_3_AUDIENCE_ADULTS: ""
+PROGRAM_3_AUDIENCE_KIDS: ""
+PROGRAM_3_AUDIENCE_TEENS: ""
+
+# ── Program 4 (optional) ──────────────────────────────────────────────────────
+PROGRAM_4_NAME: ""
+PROGRAM_4_AGE_RANGE: ""
+PROGRAM_4_DAYS: ""
+PROGRAM_4_SESSION_LEN: ""
+PROGRAM_4_DESCRIPTION: ""
+PROGRAM_4_AUDIENCE_ADULTS: ""
+PROGRAM_4_AUDIENCE_KIDS: ""
+PROGRAM_4_AUDIENCE_TEENS: ""
+
+# ── Program 5 (optional) ──────────────────────────────────────────────────────
+PROGRAM_5_NAME: ""
+PROGRAM_5_AGE_RANGE: ""
+PROGRAM_5_DAYS: ""
+PROGRAM_5_SESSION_LEN: ""
+PROGRAM_5_DESCRIPTION: ""
+PROGRAM_5_AUDIENCE_ADULTS: ""
+PROGRAM_5_AUDIENCE_KIDS: ""
+PROGRAM_5_AUDIENCE_TEENS: ""
+
+# ── Program 6 (optional) ──────────────────────────────────────────────────────
+PROGRAM_6_NAME: ""
+PROGRAM_6_AGE_RANGE: ""
+PROGRAM_6_DAYS: ""
+PROGRAM_6_SESSION_LEN: ""
+PROGRAM_6_DESCRIPTION: ""
+PROGRAM_6_AUDIENCE_ADULTS: ""
+PROGRAM_6_AUDIENCE_KIDS: ""
+PROGRAM_6_AUDIENCE_TEENS: ""
+
+# ── Class schedule (optional — builds the full schedule table on schedules.html)
+CLASS_SCHEDULE_HTML: ""                 # Full HTML table. Leave blank if no schedule yet.
+
+# ── Google reviewers (optional — up to 10) ────────────────────────────────────
+# REVIEWER_1_INITIAL is computed automatically from REVIEWER_1_NAME
+REVIEWER_1_NAME: ""
+REVIEWER_1_DATE: ""                     # e.g. 2 months ago
+REVIEWER_1_TEXT: ""
+
+REVIEWER_2_NAME: ""
+REVIEWER_2_DATE: ""
+REVIEWER_2_TEXT: ""
+
+REVIEWER_3_NAME: ""
+REVIEWER_3_DATE: ""
+REVIEWER_3_TEXT: ""
+
+# Add REVIEWER_4 through REVIEWER_10 as needed (same structure)
+
+# ── GHL Webhooks (required — set these before the final build) ────────────────
+# Get these from GHL: Sub-account → Settings → Integrations → Webhooks
+TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+
+# Get from GHL: Sub-account → Calendars → [Calendar] → Embed → Group Widget URL
+BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-before-build"
+
+# ── Privacy policy ────────────────────────────────────────────────────────────
+PRIVACY_POLICY_URL: "https://www.uptopmartialarts.com/privacy"
