@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Class Schedule | [SCHOOL_NAME] Martial Arts in [CITY]</title>
-  <meta name="description" content="View the weekly class schedule at [SCHOOL_NAME] in [CITY]. Find times for kids, teens, and adult [MARTIAL_ART] &amp; [MARTIAL_ART] classes.">
+  <title>Class Schedule | Up Top Martial Arts Academy Martial Arts in Wayne</title>
+  <meta name="description" content="View the weekly class schedule at Up Top Martial Arts Academy in Wayne. Find times for kids, teens, and adult Brazilian Jiu-Jitsu &amp; Brazilian Jiu-Jitsu classes.">
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
     html{scroll-behavior:smooth;font-size:16px}
@@ -14,11 +14,11 @@
     button{cursor:pointer;border:none;outline:none;font-family:inherit}
     ul{list-style:none}
     :root{
-      --primary:        [PRIMARY_COLOR];
-      --primary-dark:   color-mix(in srgb, [PRIMARY_COLOR] 80%, black);
-      --secondary:      [SECONDARY_COLOR];
-      --secondary-dark: color-mix(in srgb, [SECONDARY_COLOR] 80%, black);
-      --secondary-light:color-mix(in srgb, [SECONDARY_COLOR] 15%, white);
+      --primary:        #015B7E;
+      --primary-dark:   color-mix(in srgb, #015B7E 80%, black);
+      --secondary:      #29292B;
+      --secondary-dark: color-mix(in srgb, #29292B 80%, black);
+      --secondary-light:color-mix(in srgb, #29292B 15%, white);
       --red:var(--primary);--red-dark:var(--primary-dark);--blue:var(--secondary);--blue-dark:var(--secondary-dark);--blue-light:var(--secondary-light);
       --dark:#0f172a;--dark-2:#1e293b;--gray:#64748b;
       --gray-light:#e2e8f0;--light:#f8fafc;--white:#ffffff;
@@ -158,23 +158,23 @@
 <header id="header">
   <div class="container">
     <div class="header-inner">
-      <a href="index.html" class="logo" aria-label="[SCHOOL_NAME] Home">
-        <img src="[LOGO_IMAGE]" alt="[SCHOOL_NAME]" height="48" style="height:48px;width:auto;display:block">
+      <a href="index.html" class="logo" aria-label="Up Top Martial Arts Academy Home">
+        <img src="brand_assets/logo.png" alt="Up Top Martial Arts Academy" height="48" style="height:48px;width:auto;display:block">
       </a>
       <nav id="main-nav" role="navigation" aria-label="Main navigation">
         <a href="#" onclick="openModal('modal-kit');return false">Pricing</a>
         <div class="nav-dropdown">
           <a href="programs.html">Programs</a>
           <div class="dropdown-menu">
-            <a href="program-1.html">[PROGRAM_1_NAME]</a>
-            <!-- [IF:PROGRAM_2_NAME] --><a href="program-2.html">[PROGRAM_2_NAME]</a><!-- [/IF:PROGRAM_2_NAME] -->
-            <!-- [IF:PROGRAM_3_NAME] --><a href="program-3.html">[PROGRAM_3_NAME]</a><!-- [/IF:PROGRAM_3_NAME] -->
+            <a href="program-1.html">Little Champs BJJ</a>
+            <a href="program-2.html">Kids BJJ</a>
+            <a href="program-3.html">Adult BJJ & Submission Grappling</a>
 
-            <!-- [IF:PROGRAM_4_NAME] --><a href="program-4.html">[PROGRAM_4_NAME]</a><!-- [/IF:PROGRAM_4_NAME] -->
+            
 
-            <!-- [IF:PROGRAM_5_NAME] --><a href="program-5.html">[PROGRAM_5_NAME]</a><!-- [/IF:PROGRAM_5_NAME] -->
+            
 
-            <!-- [IF:PROGRAM_6_NAME] --><a href="program-6.html">[PROGRAM_6_NAME]</a><!-- [/IF:PROGRAM_6_NAME] -->
+            
           </div>
         </div>
         <a href="quick-tour.html">Quick Tour</a>
@@ -206,19 +206,28 @@
     <span class="schedule-note">Schedule subject to change — check with the front desk for the latest updates</span>
   </div>
 
-  <!-- [IF:CLASS_SCHEDULE_HTML] -->
+  
   <div class="schedule-wrap reveal">
-    [CLASS_SCHEDULE_HTML]
+    <table class="schedule-table">
+  <thead><tr><th>Day</th><th>Hours</th></tr></thead>
+  <tbody>
+    <tr><td>Monday – Thursday</td><td>11:30 AM – 2:00 PM &amp; 3:00 – 9:30 PM</td></tr>
+    <tr><td>Friday</td><td>3:00 – 9:30 PM</td></tr>
+    <tr><td>Saturday</td><td>10:00 AM – 3:00 PM</td></tr>
+    <tr><td>Sunday</td><td>12:00 – 2:00 PM</td></tr>
+  </tbody>
+</table>
+
   </div>
-  <!-- [/IF:CLASS_SCHEDULE_HTML] -->
+  
 
   <div class="legend reveal">
-    <div class="legend-item"><div class="legend-dot" style="background:#fef3c7;border:1px solid #d97706"></div>[PROGRAM_1_NAME]</div>
-    <!-- [IF:PROGRAM_2_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#d1fae5;border:1px solid #059669"></div>[PROGRAM_2_NAME]</div><!-- [/IF:PROGRAM_2_NAME] -->
-    <!-- [IF:PROGRAM_3_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#dbeafe;border:1px solid #3b82f6"></div>[PROGRAM_3_NAME]</div><!-- [/IF:PROGRAM_3_NAME] -->
-    <!-- [IF:PROGRAM_4_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#fce7f3;border:1px solid #db2777"></div>[PROGRAM_4_NAME]</div><!-- [/IF:PROGRAM_4_NAME] -->
-    <!-- [IF:PROGRAM_5_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#e0e7ff;border:1px solid #6366f1"></div>[PROGRAM_5_NAME]</div><!-- [/IF:PROGRAM_5_NAME] -->
-    <!-- [IF:PROGRAM_6_NAME] --><div class="legend-item"><div class="legend-dot" style="background:#fef9c3;border:1px solid #ca8a04"></div>[PROGRAM_6_NAME]</div><!-- [/IF:PROGRAM_6_NAME] -->
+    <div class="legend-item"><div class="legend-dot" style="background:#fef3c7;border:1px solid #d97706"></div>Little Champs BJJ</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#d1fae5;border:1px solid #059669"></div>Kids BJJ</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#dbeafe;border:1px solid #3b82f6"></div>Adult BJJ & Submission Grappling</div>
+    
+    
+    
   </div>
 </section>
 
@@ -242,11 +251,11 @@
 <footer id="footer">
   <div class="footer-grid">
     <div class="footer-brand">
-      <a href="index.html" class="logo" aria-label="[SCHOOL_NAME] Home">
-        <img src="[LOGO_IMAGE]" alt="[SCHOOL_NAME] logo" style="height:36px;width:auto" onerror="this.style.display='none'">
-        [SCHOOL_NAME]
+      <a href="index.html" class="logo" aria-label="Up Top Martial Arts Academy Home">
+        <img src="brand_assets/logo.png" alt="Up Top Martial Arts Academy logo" style="height:36px;width:auto" onerror="this.style.display='none'">
+        Up Top Martial Arts Academy
       </a>
-      <p>[SCHOOL_NAME] is [CITY]'s premier martial arts academy. We develop champions on and off the mats through world-class instruction and a supportive community.</p>
+      <p>Up Top Martial Arts Academy is Wayne's premier martial arts academy. We develop champions on and off the mats through world-class instruction and a supportive community.</p>
       <div class="social-links" aria-label="Social media links">
         <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
         <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="white" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
@@ -257,15 +266,15 @@
     <div class="footer-col">
       <h4>Programs</h4>
       <ul>
-        <li><a href="program-1.html">[PROGRAM_1_NAME]</a></li>
-        <!-- [IF:PROGRAM_2_NAME] --><li><a href="program-2.html">[PROGRAM_2_NAME]</a></li><!-- [/IF:PROGRAM_2_NAME] -->
-        <!-- [IF:PROGRAM_3_NAME] --><li><a href="program-3.html">[PROGRAM_3_NAME]</a></li><!-- [/IF:PROGRAM_3_NAME] -->
+        <li><a href="program-1.html">Little Champs BJJ</a></li>
+        <li><a href="program-2.html">Kids BJJ</a></li>
+        <li><a href="program-3.html">Adult BJJ & Submission Grappling</a></li>
 
-        <!-- [IF:PROGRAM_4_NAME] --><li><a href="program-4.html">[PROGRAM_4_NAME]</a></li><!-- [/IF:PROGRAM_4_NAME] -->
+        
 
-        <!-- [IF:PROGRAM_5_NAME] --><li><a href="program-5.html">[PROGRAM_5_NAME]</a></li><!-- [/IF:PROGRAM_5_NAME] -->
+        
 
-        <!-- [IF:PROGRAM_6_NAME] --><li><a href="program-6.html">[PROGRAM_6_NAME]</a></li><!-- [/IF:PROGRAM_6_NAME] -->
+        
       </ul>
     </div>
     <div class="footer-col">
@@ -284,15 +293,15 @@
     <div class="footer-col">
       <h4>Contact Us</h4>
       <address style="font-style:normal">
-        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>[ADDRESS_LINE_1]<br>[CITY], [STATE] [ZIP]</div>
-        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:[PHONE]">[PHONE]</a></div>
-        <!-- [IF:EMAIL] --><div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg><a href="mailto:[EMAIL]">[EMAIL]</a></div><!-- [/IF:EMAIL] -->
-        <!-- [IF:HOURS_SHORT] --><div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>[HOURS_SHORT]</div><!-- [/IF:HOURS_SHORT] -->
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>87 Berdan Ave, Suite 1<br>Wayne, NJ 07470</div>
+        <div class="footer-contact-row"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg><a href="tel:(973) 692-1991">(973) 692-1991</a></div>
+        
+        
       </address>
     </div>
   </div>
   <div class="footer-bottom">
-    <p>© [CURRENT_YEAR] [SCHOOL_NAME]. All rights reserved.</p>
+    <p>© 2026 Up Top Martial Arts Academy. All rights reserved.</p>
     <div class="footer-legal"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Sitemap</a></div>
   </div>
 </footer>
@@ -304,12 +313,12 @@
     <div id="modal-trial-body">
       <h2 class="modal-title" id="title-trial">Book Your Free Trial Today</h2>
       <p class="modal-sub">No commitment. No experience needed. Just show up and try it free.</p>
-      <form class="modal-form" onsubmit="submitModal(event,'modal-trial','[TRIAL_WEBHOOK_URL]')">
+      <form class="modal-form" onsubmit="submitModal(event,'modal-trial','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
         <div class="field"><label for="tr-name">Name</label><input id="tr-name" type="text" name="name" placeholder="Your full name" required autocomplete="name"></div>
         <div class="field"><label for="tr-email">Email</label><input id="tr-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
         <div class="field"><label for="tr-phone">Phone</label><input id="tr-phone" type="tel" name="phone" placeholder="(555) 555-5555" required autocomplete="tel"></div>
         <div class="field"><label for="tr-program">Program</label><select id="tr-program" name="program"><option value="" disabled selected>Select a program…</option><option value="kids">Kids</option><option value="teens-adults">Teens &amp; Adults</option><option value="not-sure">Not Sure</option></select></div>
-        <p class="modal-consent">By submitting you agree to receive SMS messages from [SCHOOL_NAME]. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
+        <p class="modal-consent">By submitting you agree to receive SMS messages from Up Top Martial Arts Academy. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
         <button type="submit" class="modal-submit">Reserve My Free Trial →</button>
       </form>
     </div>
@@ -324,12 +333,12 @@
     <div id="modal-kit-body">
       <h2 class="modal-title" id="title-kit">Looking For Our Pricing?</h2>
       <p class="modal-sub">Fill out the form below and one of our coaches will send you our pricing, class schedule, and EXCLUSIVE promo information for our classes.</p>
-      <form class="modal-form" onsubmit="submitModal(event,'modal-kit','[STARTER_KIT_WEBHOOK_URL]')">
+      <form class="modal-form" onsubmit="submitModal(event,'modal-kit','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
         <div class="field"><label for="kit-name">Name</label><input id="kit-name" type="text" name="name" placeholder="Your full name" required autocomplete="name"></div>
         <div class="field"><label for="kit-email">Email</label><input id="kit-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
         <div class="field"><label for="kit-phone">Phone</label><input id="kit-phone" type="tel" name="phone" placeholder="(555) 555-5555" required autocomplete="tel"></div>
         <div class="field"><label for="kit-program">Program</label><select id="kit-program" name="program"><option value="" disabled selected>Select a program…</option><option value="kids">Kids</option><option value="teens-adults">Teens &amp; Adults</option><option value="not-sure">Not Sure</option></select></div>
-        <p class="modal-consent">By submitting you agree to receive SMS messages from [SCHOOL_NAME]. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
+        <p class="modal-consent">By submitting you agree to receive SMS messages from Up Top Martial Arts Academy. Reply STOP to unsubscribe. Msg &amp; data rates may apply. <a href="#">Privacy Policy</a>.</p>
         <button type="submit" class="modal-submit">Send Me The Info →</button>
       </form>
     </div>
@@ -364,7 +373,7 @@
     e.preventDefault();var form=e.target,data={};new FormData(form).forEach(function(v,k){data[k]=v});
     var btn=form.querySelector('[type=submit]');btn.textContent='Sending…';btn.disabled=true;
     if(url&&url.charAt(0)!=='[')fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).catch(function(){});
-    setTimeout(function(){if(mid==='modal-trial'){window.location.href='[BOOKING_CALENDAR_URL]';}else{var b=document.getElementById(mid+'-body'),s=document.getElementById(mid+'-success');if(b)b.style.display='none';if(s)s.style.display='block';}},550);
+    setTimeout(function(){if(mid==='modal-trial'){window.location.href='https://PLACEHOLDER-replace-with-real-GHL-webhook';}else{var b=document.getElementById(mid+'-body'),s=document.getElementById(mid+'-success');if(b)b.style.display='none';if(s)s.style.display='block';}},550);
   };
 }());
 </script>

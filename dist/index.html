@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>[SCHOOL_NAME] | [MARTIAL_ART] in [CITY]</title>
-  <meta name="description" content="[SCHOOL_NAME] offers world-class [MARTIAL_ART] training in [CITY]. Build confidence, discipline, and real self-defense skills. Book your free trial today.">
+  <title>Up Top Martial Arts Academy | Brazilian Jiu-Jitsu in Wayne</title>
+  <meta name="description" content="Up Top Martial Arts Academy offers world-class Brazilian Jiu-Jitsu training in Wayne. Build confidence, discipline, and real self-defense skills. Book your free trial today.">
   <meta name="robots" content="index, follow">
-  <meta property="og:title" content="[SCHOOL_NAME] | [MARTIAL_ART] in [CITY]">
-  <meta property="og:description" content="World-class [MARTIAL_ART] for all ages in [CITY]. Book your free trial class today.">
+  <meta property="og:title" content="Up Top Martial Arts Academy | Brazilian Jiu-Jitsu in Wayne">
+  <meta property="og:description" content="World-class Brazilian Jiu-Jitsu for all ages in Wayne. Book your free trial class today.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="[OG_IMAGE]">
-  <link rel="canonical" href="[SITE_URL]">
+  <meta property="og:image" content="images/hero/hero.jpg">
+  <link rel="canonical" href="https://www.uptopmartialarts.com">
 
   <style>
     /* ============================================================
@@ -32,8 +32,8 @@
        DESIGN TOKENS — primary/secondary injected from client-data.yaml
     ============================================================ */
     :root {
-      --primary:     [PRIMARY_COLOR];
-      --secondary:   [SECONDARY_COLOR];
+      --primary:     #015B7E;
+      --secondary:   #29292B;
       --gold:        #ffc700;
       --dark:        #0f172a;
       --dark-2:      #1e293b;
@@ -674,8 +674,8 @@
   <div class="header-inner">
 
     <a href="#" class="logo">
-      <img src="[LOGO_IMAGE]" alt="" aria-hidden="true" onerror="this.style.display='none'">
-      [SCHOOL_NAME]
+      <img src="brand_assets/logo.png" alt="" aria-hidden="true" onerror="this.style.display='none'">
+      Up Top Martial Arts Academy
     </a>
 
     <nav id="main-nav" role="navigation" aria-label="Main navigation">
@@ -684,12 +684,12 @@
       <div class="nav-dropdown">
         <a href="programs.html">Programs</a>
         <div class="dropdown-menu">
-          <!-- [IF:PROGRAM_1_NAME] --><a href="program-1.html">[PROGRAM_1_NAME]</a><!-- [/IF:PROGRAM_1_NAME] -->
-          <!-- [IF:PROGRAM_2_NAME] --><a href="program-2.html">[PROGRAM_2_NAME]</a><!-- [/IF:PROGRAM_2_NAME] -->
-          <!-- [IF:PROGRAM_3_NAME] --><a href="program-3.html">[PROGRAM_3_NAME]</a><!-- [/IF:PROGRAM_3_NAME] -->
-          <!-- [IF:PROGRAM_4_NAME] --><a href="program-4.html">[PROGRAM_4_NAME]</a><!-- [/IF:PROGRAM_4_NAME] -->
-          <!-- [IF:PROGRAM_5_NAME] --><a href="program-5.html">[PROGRAM_5_NAME]</a><!-- [/IF:PROGRAM_5_NAME] -->
-          <!-- [IF:PROGRAM_6_NAME] --><a href="program-6.html">[PROGRAM_6_NAME]</a><!-- [/IF:PROGRAM_6_NAME] -->
+          <a href="program-1.html">Little Champs BJJ</a>
+          <a href="program-2.html">Kids BJJ</a>
+          <a href="program-3.html">Adult BJJ & Submission Grappling</a>
+          
+          
+          
         </div>
       </div>
 
@@ -720,24 +720,20 @@
      HERO — FULL VIEWPORT
 ============================================================ -->
 <section id="hero">
-  <div class="hero-bg" style="background-image:url('[HERO_IMAGE]'), linear-gradient(135deg, #07101e 0%, #1a3a6e 55%, #0c1e36 100%)">
-    <!-- [IF:HERO_VIDEO] -->
-    <video autoplay muted loop playsinline>
-      <source src="[HERO_VIDEO]" type="video/mp4">
-    </video>
-    <!-- [/IF:HERO_VIDEO] -->
+  <div class="hero-bg" style="background-image:url('images/hero/hero.jpg'), linear-gradient(135deg, #07101e 0%, #1a3a6e 55%, #0c1e36 100%)">
+    
   </div>
   <div class="hero-overlay" aria-hidden="true"></div>
   <div class="hero-glow" aria-hidden="true"></div>
 
   <div class="hero-content">
-    <!-- [IF:SHOW_PROOF_BAR] --><div class="hero-badge">⭐ [STAR_RATING] Stars · [REVIEW_COUNT]+ Reviews on Google</div><!-- [/IF:SHOW_PROOF_BAR] -->
+    <div class="hero-badge">⭐ 5.0 Stars · 104+ Reviews on Google</div>
 
     <h1 class="hero-title">
-      [HERO_HEADLINE]
-      <!-- [IF:HERO_SUBHEADLINE] --><br><span>[HERO_SUBHEADLINE]</span><!-- [/IF:HERO_SUBHEADLINE] -->
+      Wayne's Premier Brazilian Jiu-Jitsu Academy
+      <br><span>BJJ · Submission Grappling · Self-Defense in Wayne, NJ</span>
     </h1>
-    <p class="hero-sub">[HERO_SUBTEXT]</p>
+    <p class="hero-sub">Programs for ages 4 through adult. No experience needed — all levels welcome.</p>
 
     <div class="hero-ctas">
       <button class="btn btn-primary" onclick="openModal('modal-trial')">Book Free Intro Session</button>
@@ -767,105 +763,36 @@
 <!-- ============================================================
      SOCIAL PROOF BAR
 ============================================================ -->
-<!-- [IF:SHOW_PROOF_BAR] -->
+
 <section id="social-proof" aria-label="Key statistics">
   <div class="proof-grid">
     <div class="proof-item">
       <div class="proof-stars" aria-hidden="true">★★★★★</div>
-      <div class="proof-rating">[STAR_RATING]</div>
+      <div class="proof-rating">5.0</div>
       <div class="proof-label">Average Star Rating</div>
     </div>
     <div class="proof-item">
-      <div class="proof-number" data-count="[REVIEW_COUNT]" data-suffix="+" aria-label="[REVIEW_COUNT]+ reviews">0</div>
+      <div class="proof-number" data-count="104" data-suffix="+" aria-label="104+ reviews">0</div>
       <div class="proof-label">5-Star Google Reviews</div>
     </div>
-    <!-- [IF:YEARS_COUNT] -->
-    <div class="proof-item">
-      <div class="proof-number" data-count="[YEARS_COUNT]" data-suffix="" aria-label="[YEARS_COUNT] years">0</div>
-      <div class="proof-label">Years of Excellence</div>
-    </div>
-    <!-- [/IF:YEARS_COUNT] -->
+    
   </div>
 </section>
-<!-- [/IF:SHOW_PROOF_BAR] -->
+
 
 
 <!-- ============================================================
      TESTIMONIALS — hidden entirely if no testimonials provided
 ============================================================ -->
-<!-- [IF:TESTIMONIAL_1_QUOTE] -->
-<section id="testimonials" aria-label="Student testimonials">
-  <div class="section-header reveal">
-    <span class="eyebrow">What Our Community Says</span>
-    <h2 class="section-title">Real Stories. Real Results.</h2>
-  </div>
 
-  <div class="testimonials-grid">
 
-    <!-- [IF:TESTIMONIAL_1_QUOTE] -->
-    <article class="testi-card reveal">
-      <p class="testi-text">[TESTIMONIAL_1_QUOTE]</p>
-      <div class="testi-author">
-        <div class="testi-avatar" style="background:linear-gradient(135deg,#2563eb,#1d4ed8)">[T_1_INITIAL]</div>
-        <div>
-          <div class="testi-name">[TESTIMONIAL_1_NAME]</div>
-          <div class="testi-stars">★★★★★</div>
-        </div>
-      </div>
-    </article>
-    <!-- [/IF:TESTIMONIAL_1_QUOTE] -->
+    
 
-    <!-- [IF:TESTIMONIAL_2_QUOTE] -->
-    <article class="testi-card reveal">
-      <p class="testi-text">[TESTIMONIAL_2_QUOTE]</p>
-      <div class="testi-author">
-        <div class="testi-avatar" style="background:linear-gradient(135deg,#059669,#0284c7)">[T_2_INITIAL]</div>
-        <div>
-          <div class="testi-name">[TESTIMONIAL_2_NAME]</div>
-          <div class="testi-stars">★★★★★</div>
-        </div>
-      </div>
-    </article>
-    <!-- [/IF:TESTIMONIAL_2_QUOTE] -->
+    
 
-    <!-- [IF:TESTIMONIAL_3_QUOTE] -->
-    <article class="testi-card reveal">
-      <p class="testi-text">[TESTIMONIAL_3_QUOTE]</p>
-      <div class="testi-author">
-        <div class="testi-avatar" style="background:linear-gradient(135deg,#d97706,#dc2626)">[T_3_INITIAL]</div>
-        <div>
-          <div class="testi-name">[TESTIMONIAL_3_NAME]</div>
-          <div class="testi-stars">★★★★★</div>
-        </div>
-      </div>
-    </article>
-    <!-- [/IF:TESTIMONIAL_3_QUOTE] -->
+    
 
-    <!-- [IF:TESTIMONIAL_4_QUOTE] -->
-    <article class="testi-card reveal">
-      <p class="testi-text">[TESTIMONIAL_4_QUOTE]</p>
-      <div class="testi-author">
-        <div class="testi-avatar" style="background:linear-gradient(135deg,#7c3aed,#1d4ed8)">[T_4_INITIAL]</div>
-        <div>
-          <div class="testi-name">[TESTIMONIAL_4_NAME]</div>
-          <div class="testi-stars">★★★★★</div>
-        </div>
-      </div>
-    </article>
-    <!-- [/IF:TESTIMONIAL_4_QUOTE] -->
-
-    <!-- [IF:TESTIMONIAL_5_QUOTE] -->
-    <article class="testi-card reveal">
-      <p class="testi-text">[TESTIMONIAL_5_QUOTE]</p>
-      <div class="testi-author">
-        <div class="testi-avatar" style="background:linear-gradient(135deg,#dc2626,#d97706)">[T_5_INITIAL]</div>
-        <div>
-          <div class="testi-name">[TESTIMONIAL_5_NAME]</div>
-          <div class="testi-stars">★★★★★</div>
-        </div>
-      </div>
-    </article>
-    <!-- [/IF:TESTIMONIAL_5_QUOTE] -->
+    
 
   </div>
 </section>
@@ -879,18 +806,18 @@
   <div class="section-header reveal" style="max-width:700px;margin:0 auto 48px">
     <span class="eyebrow">Meet Your Instructor</span>
     <h2 class="section-title">Expert Instruction, Proven Results</h2>
-    <p class="section-sub">[ABOUT_TEXT]</p>
+    <p class="section-sub">Up Top Martial Arts Academy is Wayne, NJ's premier center for Brazilian Jiu-Jitsu and submission grappling, with programs for ages 4 through adult in a welcoming, community-driven environment. Head instructor Yanni Hronakis — a 2nd Degree Black Belt through the Renzo Gracie lineage — trains alongside his students seven days a week, competing at every level to push both himself and his team to new heights.</p>
   </div>
 
   <div class="instructor-inner">
     <div class="instructor-photo reveal">
-      <img src="[INSTRUCTOR_1_PHOTO]" alt="[INSTRUCTOR_1_NAME], [INSTRUCTOR_1_TITLE]" loading="lazy" onerror="this.closest('.instructor-photo').style.display='none';this.closest('.instructor-inner').style.gridTemplateColumns='1fr'">
-      <div class="instructor-badge">[INSTRUCTOR_1_TITLE]</div>
+      <img src="images/instructor/instructor-1/yanni.jpg" alt="Ioannis "Yanni" Hronakis, Owner & Head Instructor · 2nd Degree BJJ Black Belt" loading="lazy" onerror="this.closest('.instructor-photo').style.display='none';this.closest('.instructor-inner').style.gridTemplateColumns='1fr'">
+      <div class="instructor-badge">Owner & Head Instructor · 2nd Degree BJJ Black Belt</div>
     </div>
     <div class="instructor-content reveal">
-      <h2 class="instructor-name">[INSTRUCTOR_1_NAME]</h2>
-      <p class="instructor-credential">[INSTRUCTOR_1_TITLE]</p>
-      <p class="instructor-bio">[INSTRUCTOR_1_BIO]</p>
+      <h2 class="instructor-name">Ioannis "Yanni" Hronakis</h2>
+      <p class="instructor-credential">Owner & Head Instructor · 2nd Degree BJJ Black Belt</p>
+      <p class="instructor-bio">Yanni Hronakis holds a 2nd Degree Black Belt in Brazilian Jiu-Jitsu under Jamie Cruz — one of the first American Black Belts under Renzo Gracie — and a 4th Degree Black Belt in Taekwondo, with additional training in Muay Thai Kickboxing. He began martial arts at age 8, started assisting classes at 16, and has been competing alongside his students ever since, regularly appearing on tournament podiums across New Jersey and beyond. You'll find him on the mats every single day, whether coaching, drilling, or rolling with students of all ages and levels.</p>
       <div style="margin-top:28px">
         <button class="btn btn-primary" onclick="openModal('modal-trial')">
           Train With Us
@@ -906,9 +833,9 @@
 ============================================================ -->
 <section id="why-us">
   <div class="why-header section-header reveal">
-    <span class="eyebrow" style="color:var(--primary)">Why [SCHOOL_NAME]</span>
-    <h2 class="section-title" style="color:white">The [SCHOOL_NAME] Difference</h2>
-    <p class="section-sub" style="color:rgba(255,255,255,.65)">We don't just teach [MARTIAL_ART] — we build better people.</p>
+    <span class="eyebrow" style="color:var(--primary)">Why Up Top Martial Arts Academy</span>
+    <h2 class="section-title" style="color:white">The Up Top Martial Arts Academy Difference</h2>
+    <p class="section-sub" style="color:rgba(255,255,255,.65)">We don't just teach Brazilian Jiu-Jitsu — we build better people.</p>
   </div>
 
   <div class="why-grid">
@@ -918,7 +845,7 @@
         <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
       </div>
       <h3>Serious Black Belt School</h3>
-      <p>Students earn every belt by demonstrating real technique — we don't hand out ranks. With a [STAR_RATING]-star Google rating<!-- [IF:YEARS_COUNT] --> and [YEARS_COUNT] years in [CITY]<!-- [/IF:YEARS_COUNT] -->, our standards speak for themselves.</p>
+      <p>Students earn every belt by demonstrating real technique — we don't hand out ranks. With a 5.0-star Google rating, our standards speak for themselves.</p>
     </div>
 
     <div class="why-card reveal">
@@ -926,7 +853,7 @@
         <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
       </div>
       <h3>Welcoming to All Ages &amp; Levels</h3>
-      <p>From young kids to adults, complete beginners to returning martial artists — everyone feels at home at [SCHOOL_NAME]. This is a family, not just a gym.</p>
+      <p>From young kids to adults, complete beginners to returning martial artists — everyone feels at home at Up Top Martial Arts Academy. This is a family, not just a gym.</p>
     </div>
 
     <div class="why-card reveal">
@@ -954,98 +881,56 @@
   <div class="programs-grid">
 
     <article class="program-card reveal">
-      <img src="[PROGRAM_1_PHOTO]" alt="[PROGRAM_1_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
+      <img src="images/programs/program-1/main.jpg" alt="Little Champs BJJ at Up Top Martial Arts Academy" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
       <div class="program-body">
-        <span class="program-tag">[PROGRAM_1_AGE_RANGE]</span>
-        <h3>[PROGRAM_1_NAME]</h3>
-        <!-- [IF:PROGRAM_1_DESCRIPTION] --><p>[PROGRAM_1_DESCRIPTION]</p><!-- [/IF:PROGRAM_1_DESCRIPTION] -->
+        <span class="program-tag">Ages 4–6</span>
+        <h3>Little Champs BJJ</h3>
+        <p>Our youngest grapplers learn balance, focus, and confidence through age-appropriate BJJ fundamentals — in a fun, safe environment designed specifically for little ones ages 4–6.</p>
         <div class="program-meta">
-          <!-- [IF:PROGRAM_1_DAYS] --><span>[PROGRAM_1_DAYS]</span><!-- [/IF:PROGRAM_1_DAYS] -->
-          <!-- [IF:PROGRAM_1_SESSION_LEN] --><span>[PROGRAM_1_SESSION_LEN]</span><!-- [/IF:PROGRAM_1_SESSION_LEN] -->
+          <span>Mon, Tue, Wed & Thu</span>
+          <span>45-min classes</span>
         </div>
         <button class="btn btn-primary" onclick="openModal('modal-trial')">Book Free Trial</button>
       </div>
     </article>
 
-    <!-- [IF:PROGRAM_2_NAME] -->
+    
     <article class="program-card reveal">
-      <img src="[PROGRAM_2_PHOTO]" alt="[PROGRAM_2_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
+      <img src="images/programs/program-2/main.jpg" alt="Kids BJJ at Up Top Martial Arts Academy" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
       <div class="program-body">
-        <span class="program-tag">[PROGRAM_2_AGE_RANGE]</span>
-        <h3>[PROGRAM_2_NAME]</h3>
-        <!-- [IF:PROGRAM_2_DESCRIPTION] --><p>[PROGRAM_2_DESCRIPTION]</p><!-- [/IF:PROGRAM_2_DESCRIPTION] -->
+        <span class="program-tag">Ages 7–13</span>
+        <h3>Kids BJJ</h3>
+        <p>Split into age-appropriate groups, our Kids BJJ classes build technique, discipline, and competitive drive — with a strong emphasis on safety, self-defense, and having fun on the mats.</p>
         <div class="program-meta">
-          <!-- [IF:PROGRAM_2_DAYS] --><span>[PROGRAM_2_DAYS]</span><!-- [/IF:PROGRAM_2_DAYS] -->
-          <!-- [IF:PROGRAM_2_SESSION_LEN] --><span>[PROGRAM_2_SESSION_LEN]</span><!-- [/IF:PROGRAM_2_SESSION_LEN] -->
+          <span>Mon, Tue, Wed, Thu & Sat</span>
+          <span>60-min classes</span>
         </div>
         <button class="btn btn-primary" onclick="openModal('modal-trial')">Book Free Trial</button>
       </div>
     </article>
-    <!-- [/IF:PROGRAM_2_NAME] -->
+    
 
-    <!-- [IF:PROGRAM_3_NAME] -->
+    
     <article class="program-card reveal">
-      <img src="[PROGRAM_3_PHOTO]" alt="[PROGRAM_3_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
+      <img src="images/programs/program-3/main.jpg" alt="Adult BJJ & Submission Grappling at Up Top Martial Arts Academy" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
       <div class="program-body">
-        <span class="program-tag">[PROGRAM_3_AGE_RANGE]</span>
-        <h3>[PROGRAM_3_NAME]</h3>
-        <!-- [IF:PROGRAM_3_DESCRIPTION] --><p>[PROGRAM_3_DESCRIPTION]</p><!-- [/IF:PROGRAM_3_DESCRIPTION] -->
+        <span class="program-tag">Ages 14+</span>
+        <h3>Adult BJJ & Submission Grappling</h3>
+        <p>Whether your goal is competition, fitness, self-defense, or just a better way to stay active — Up Top's adult program covers Brazilian Jiu-Jitsu, No-Gi submission grappling, and real-world techniques proven effective for all body types.</p>
         <div class="program-meta">
-          <!-- [IF:PROGRAM_3_DAYS] --><span>[PROGRAM_3_DAYS]</span><!-- [/IF:PROGRAM_3_DAYS] -->
-          <!-- [IF:PROGRAM_3_SESSION_LEN] --><span>[PROGRAM_3_SESSION_LEN]</span><!-- [/IF:PROGRAM_3_SESSION_LEN] -->
+          <span>Mon–Sat</span>
+          <span>60-min classes</span>
         </div>
         <button class="btn btn-primary" onclick="openModal('modal-trial')">Book Free Trial</button>
       </div>
     </article>
-    <!-- [/IF:PROGRAM_3_NAME] -->
+    
 
-    <!-- [IF:PROGRAM_4_NAME] -->
-    <article class="program-card reveal">
-      <img src="[PROGRAM_4_PHOTO]" alt="[PROGRAM_4_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
-      <div class="program-body">
-        <span class="program-tag">[PROGRAM_4_AGE_RANGE]</span>
-        <h3>[PROGRAM_4_NAME]</h3>
-        <!-- [IF:PROGRAM_4_DESCRIPTION] --><p>[PROGRAM_4_DESCRIPTION]</p><!-- [/IF:PROGRAM_4_DESCRIPTION] -->
-        <div class="program-meta">
-          <!-- [IF:PROGRAM_4_DAYS] --><span>[PROGRAM_4_DAYS]</span><!-- [/IF:PROGRAM_4_DAYS] -->
-          <!-- [IF:PROGRAM_4_SESSION_LEN] --><span>[PROGRAM_4_SESSION_LEN]</span><!-- [/IF:PROGRAM_4_SESSION_LEN] -->
-        </div>
-        <button class="btn btn-primary" onclick="openModal('modal-trial')">Book Free Trial</button>
-      </div>
-    </article>
-    <!-- [/IF:PROGRAM_4_NAME] -->
+    
 
-    <!-- [IF:PROGRAM_5_NAME] -->
-    <article class="program-card reveal">
-      <img src="[PROGRAM_5_PHOTO]" alt="[PROGRAM_5_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
-      <div class="program-body">
-        <span class="program-tag">[PROGRAM_5_AGE_RANGE]</span>
-        <h3>[PROGRAM_5_NAME]</h3>
-        <!-- [IF:PROGRAM_5_DESCRIPTION] --><p>[PROGRAM_5_DESCRIPTION]</p><!-- [/IF:PROGRAM_5_DESCRIPTION] -->
-        <div class="program-meta">
-          <!-- [IF:PROGRAM_5_DAYS] --><span>[PROGRAM_5_DAYS]</span><!-- [/IF:PROGRAM_5_DAYS] -->
-          <!-- [IF:PROGRAM_5_SESSION_LEN] --><span>[PROGRAM_5_SESSION_LEN]</span><!-- [/IF:PROGRAM_5_SESSION_LEN] -->
-        </div>
-        <button class="btn btn-primary" onclick="openModal('modal-trial')">Book Free Trial</button>
-      </div>
-    </article>
-    <!-- [/IF:PROGRAM_5_NAME] -->
+    
 
-    <!-- [IF:PROGRAM_6_NAME] -->
-    <article class="program-card reveal">
-      <img src="[PROGRAM_6_PHOTO]" alt="[PROGRAM_6_NAME] at [SCHOOL_NAME]" loading="lazy" style="width:100%;height:220px;object-fit:cover;display:block">
-      <div class="program-body">
-        <span class="program-tag">[PROGRAM_6_AGE_RANGE]</span>
-        <h3>[PROGRAM_6_NAME]</h3>
-        <!-- [IF:PROGRAM_6_DESCRIPTION] --><p>[PROGRAM_6_DESCRIPTION]</p><!-- [/IF:PROGRAM_6_DESCRIPTION] -->
-        <div class="program-meta">
-          <!-- [IF:PROGRAM_6_DAYS] --><span>[PROGRAM_6_DAYS]</span><!-- [/IF:PROGRAM_6_DAYS] -->
-          <!-- [IF:PROGRAM_6_SESSION_LEN] --><span>[PROGRAM_6_SESSION_LEN]</span><!-- [/IF:PROGRAM_6_SESSION_LEN] -->
-        </div>
-        <button class="btn btn-primary" onclick="openModal('modal-trial')">Book Free Trial</button>
-      </div>
-    </article>
-    <!-- [/IF:PROGRAM_6_NAME] -->
+    
 
   </div>
 </section>
@@ -1065,7 +950,7 @@
     <div class="step-card reveal">
       <div class="step-num" aria-hidden="true">1</div>
       <h3>Book Your Free Trial</h3>
-      <p>Click the button below or call us at <strong>[PHONE]</strong> to reserve your free intro session at a time that works for you.</p>
+      <p>Click the button below or call us at <strong>(973) 692-1991</strong> to reserve your free intro session at a time that works for you.</p>
     </div>
     <div class="step-card reveal">
       <div class="step-num" aria-hidden="true">2</div>
@@ -1091,7 +976,7 @@
 <!-- ============================================================
      GOOGLE REVIEWS — hidden entirely if no reviews provided
 ============================================================ -->
-<!-- [IF:REVIEWER_1_NAME] -->
+
 <section id="google-reviews">
   <div class="section-header reveal">
     <div class="google-badge" aria-hidden="true">
@@ -1099,184 +984,109 @@
       <span class="google-badge-label">Google Reviews</span>
     </div>
     <div style="color:#f59e0b;font-size:28px;letter-spacing:3px;margin-bottom:8px" aria-hidden="true">★★★★★</div>
-    <p class="section-sub">Rated <strong>[STAR_RATING]</strong> from <strong>[REVIEW_COUNT]+ reviews</strong> on Google</p>
+    <p class="section-sub">Rated <strong>5.0</strong> from <strong>104+ reviews</strong> on Google</p>
   </div>
 
   <div class="reviews-grid">
 
-    <!-- [IF:REVIEWER_1_NAME] -->
+    
     <article class="review-card reveal">
       <div class="review-header">
         <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#4285f4,#34a853)">[R_1_INITIAL]</div>
+          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#4285f4,#34a853)">E</div>
           <div>
-            <div class="reviewer-name">[REVIEWER_1_NAME]</div>
-            <div class="review-date">[REVIEWER_1_DATE]</div>
+            <div class="reviewer-name">Effie Haralambidis</div>
+            <div class="review-date">3 months ago</div>
           </div>
         </div>
         <div class="review-stars">★★★★★</div>
       </div>
-      <p class="review-text">"[REVIEWER_1_TEXT]"</p>
+      <p class="review-text">"I highly recommend UT for kids Jiu Jitsu. My son is a very shy 4 year old and I was very surprised when we walked in, met the owner, tried a class and was told by my son that he enjoyed it very much. My son is very happy when I say it's "Jiu Jitsu day". Yanni is very patient, knowledgeable, great with the kids and commands the room with great control."</p>
       <p class="via-google">via Google</p>
     </article>
-    <!-- [/IF:REVIEWER_1_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_2_NAME] -->
+    
     <article class="review-card reveal">
       <div class="review-header">
         <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#ea4335,#fbbc04)">[R_2_INITIAL]</div>
+          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#ea4335,#fbbc04)">M</div>
           <div>
-            <div class="reviewer-name">[REVIEWER_2_NAME]</div>
-            <div class="review-date">[REVIEWER_2_DATE]</div>
+            <div class="reviewer-name">Maria Garo</div>
+            <div class="review-date">3 months ago</div>
           </div>
         </div>
         <div class="review-stars">★★★★★</div>
       </div>
-      <p class="review-text">"[REVIEWER_2_TEXT]"</p>
+      <p class="review-text">"We love Up Top Martial Arts Academy! My six year old has been attending for two years and continues to learn discipline, build confidence and practice the art of BJJ. Yanni is an exceptional teacher who is patient yet firm when necessary. My son loves going!"</p>
       <p class="via-google">via Google</p>
     </article>
-    <!-- [/IF:REVIEWER_2_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_3_NAME] -->
+    
     <article class="review-card reveal">
       <div class="review-header">
         <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#34a853,#1a73e8)">[R_3_INITIAL]</div>
+          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#34a853,#1a73e8)">J</div>
           <div>
-            <div class="reviewer-name">[REVIEWER_3_NAME]</div>
-            <div class="review-date">[REVIEWER_3_DATE]</div>
+            <div class="reviewer-name">Jordan</div>
+            <div class="review-date">3 months ago</div>
           </div>
         </div>
         <div class="review-stars">★★★★★</div>
       </div>
-      <p class="review-text">"[REVIEWER_3_TEXT]"</p>
+      <p class="review-text">"One of the best JiuJitsu schools in the area. Yanni has made a great community and is a great instructor. His students are welcoming and talented. I'd recommend for anyone trying martial arts."</p>
       <p class="via-google">via Google</p>
     </article>
-    <!-- [/IF:REVIEWER_3_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_4_NAME] -->
+    
     <article class="review-card reveal">
       <div class="review-header">
         <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#fbbc04,#ea4335)">[R_4_INITIAL]</div>
+          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#fbbc04,#ea4335)">J</div>
           <div>
-            <div class="reviewer-name">[REVIEWER_4_NAME]</div>
-            <div class="review-date">[REVIEWER_4_DATE]</div>
+            <div class="reviewer-name">Jeff Wells II</div>
+            <div class="review-date">3 months ago</div>
           </div>
         </div>
         <div class="review-stars">★★★★★</div>
       </div>
-      <p class="review-text">"[REVIEWER_4_TEXT]"</p>
+      <p class="review-text">"Yanni is an excellent instructor, and the training partners are incredibly helpful, which makes the entire experience much easier. Great place to train."</p>
       <p class="via-google">via Google</p>
     </article>
-    <!-- [/IF:REVIEWER_4_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_5_NAME] -->
+    
     <article class="review-card reveal">
       <div class="review-header">
         <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#4285f4,#ea4335)">[R_5_INITIAL]</div>
+          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#4285f4,#ea4335)">M</div>
           <div>
-            <div class="reviewer-name">[REVIEWER_5_NAME]</div>
-            <div class="review-date">[REVIEWER_5_DATE]</div>
+            <div class="reviewer-name">Michael Gerne</div>
+            <div class="review-date">2 years ago</div>
           </div>
         </div>
         <div class="review-stars">★★★★★</div>
       </div>
-      <p class="review-text">"[REVIEWER_5_TEXT]"</p>
+      <p class="review-text">"I got into BJJ late in life at 45. Time and time again I was told by instructors and students about Yanni's technical expertise. It's a great place with a great group of men and women to train with. I've been there for over 2 years now and love it. Great workout and even better stress reliever. No contract lock down — when you have a great product, you don't need to force a contract on someone."</p>
       <p class="via-google">via Google</p>
     </article>
-    <!-- [/IF:REVIEWER_5_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_6_NAME] -->
-    <article class="review-card reveal">
-      <div class="review-header">
-        <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#34a853,#fbbc04)">[R_6_INITIAL]</div>
-          <div>
-            <div class="reviewer-name">[REVIEWER_6_NAME]</div>
-            <div class="review-date">[REVIEWER_6_DATE]</div>
-          </div>
-        </div>
-        <div class="review-stars">★★★★★</div>
-      </div>
-      <p class="review-text">"[REVIEWER_6_TEXT]"</p>
-      <p class="via-google">via Google</p>
-    </article>
-    <!-- [/IF:REVIEWER_6_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_7_NAME] -->
-    <article class="review-card reveal">
-      <div class="review-header">
-        <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#ea4335,#4285f4)">[R_7_INITIAL]</div>
-          <div>
-            <div class="reviewer-name">[REVIEWER_7_NAME]</div>
-            <div class="review-date">[REVIEWER_7_DATE]</div>
-          </div>
-        </div>
-        <div class="review-stars">★★★★★</div>
-      </div>
-      <p class="review-text">"[REVIEWER_7_TEXT]"</p>
-      <p class="via-google">via Google</p>
-    </article>
-    <!-- [/IF:REVIEWER_7_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_8_NAME] -->
-    <article class="review-card reveal">
-      <div class="review-header">
-        <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#fbbc04,#34a853)">[R_8_INITIAL]</div>
-          <div>
-            <div class="reviewer-name">[REVIEWER_8_NAME]</div>
-            <div class="review-date">[REVIEWER_8_DATE]</div>
-          </div>
-        </div>
-        <div class="review-stars">★★★★★</div>
-      </div>
-      <p class="review-text">"[REVIEWER_8_TEXT]"</p>
-      <p class="via-google">via Google</p>
-    </article>
-    <!-- [/IF:REVIEWER_8_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_9_NAME] -->
-    <article class="review-card reveal">
-      <div class="review-header">
-        <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#1a73e8,#34a853)">[R_9_INITIAL]</div>
-          <div>
-            <div class="reviewer-name">[REVIEWER_9_NAME]</div>
-            <div class="review-date">[REVIEWER_9_DATE]</div>
-          </div>
-        </div>
-        <div class="review-stars">★★★★★</div>
-      </div>
-      <p class="review-text">"[REVIEWER_9_TEXT]"</p>
-      <p class="via-google">via Google</p>
-    </article>
-    <!-- [/IF:REVIEWER_9_NAME] -->
+    
 
-    <!-- [IF:REVIEWER_10_NAME] -->
-    <article class="review-card reveal">
-      <div class="review-header">
-        <div class="reviewer-info">
-          <div class="reviewer-avatar" style="background:linear-gradient(135deg,#ea4335,#34a853)">[R_10_INITIAL]</div>
-          <div>
-            <div class="reviewer-name">[REVIEWER_10_NAME]</div>
-            <div class="review-date">[REVIEWER_10_DATE]</div>
-          </div>
-        </div>
-        <div class="review-stars">★★★★★</div>
-      </div>
-      <p class="review-text">"[REVIEWER_10_TEXT]"</p>
-      <p class="via-google">via Google</p>
-    </article>
-    <!-- [/IF:REVIEWER_10_NAME] -->
+    
 
   </div>
 </section>
-<!-- [/IF:REVIEWER_1_NAME] -->
+
 
 
 <!-- ============================================================
@@ -1306,7 +1116,7 @@
         <span class="faq-toggle" aria-hidden="true">+</span>
       </div>
       <div class="faq-a">
-        We welcome students as young as 4 years old. Our programs are grouped by age so every student trains at exactly the right level. Call us at [PHONE] and we'll help you find the perfect fit.
+        We welcome students as young as 4 years old. Our programs are grouped by age so every student trains at exactly the right level. Call us at (973) 692-1991 and we'll help you find the perfect fit.
       </div>
     </div>
 
@@ -1382,26 +1192,23 @@
 
     <div class="location-info reveal">
       <span class="eyebrow" style="color:var(--primary)">Find Us</span>
-      <h2>Visit [SCHOOL_NAME]</h2>
+      <h2>Visit Up Top Martial Arts Academy</h2>
 
       <div class="location-detail">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-        <span>[ADDRESS_LINE_1]<br>[CITY], [STATE] [ZIP]</span>
+        <span>87 Berdan Ave, Suite 1<br>Wayne, NJ 07470</span>
       </div>
 
       <div class="location-detail">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-        <a href="tel:[PHONE]">[PHONE]</a>
+        <a href="tel:(973) 692-1991">(973) 692-1991</a>
       </div>
 
-      <!-- [IF:EMAIL] --><div class="location-detail">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-        <a href="mailto:[EMAIL]">[EMAIL]</a>
-      </div><!-- [/IF:EMAIL] -->
+      
 
       <div class="location-detail">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
-        <span>[HOURS]</span>
+        <span>Mon–Thu 11:30am–2pm & 3–9:30pm · Fri 3–9:30pm · Sat 10am–3pm · Sun 12–2pm</span>
       </div>
 
       <div style="margin-top:28px">
@@ -1413,10 +1220,10 @@
 
     <div class="map-embed reveal">
       <iframe
-        src="[GOOGLE_MAPS_EMBED_URL]"
+        src="https://maps.google.com/maps?q=87%20Berdan%20Ave%2C%20Suite%201%2C%20Wayne%2C%20NJ%2C%2007470&output=embed"
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"
-        title="[SCHOOL_NAME] location map"
+        title="Up Top Martial Arts Academy location map"
         allowfullscreen>
       </iframe>
     </div>
@@ -1455,19 +1262,19 @@
         <div class="form-single">
           <select name="program" aria-label="Interested program">
             <option value="" disabled selected>Interested In…</option>
-            <!-- [IF:PROGRAM_1_NAME] --><option value="program-1">[PROGRAM_1_NAME]</option><!-- [/IF:PROGRAM_1_NAME] -->
-            <!-- [IF:PROGRAM_2_NAME] --><option value="program-2">[PROGRAM_2_NAME]</option><!-- [/IF:PROGRAM_2_NAME] -->
-            <!-- [IF:PROGRAM_3_NAME] --><option value="program-3">[PROGRAM_3_NAME]</option><!-- [/IF:PROGRAM_3_NAME] -->
-            <!-- [IF:PROGRAM_4_NAME] --><option value="program-4">[PROGRAM_4_NAME]</option><!-- [/IF:PROGRAM_4_NAME] -->
-            <!-- [IF:PROGRAM_5_NAME] --><option value="program-5">[PROGRAM_5_NAME]</option><!-- [/IF:PROGRAM_5_NAME] -->
-            <!-- [IF:PROGRAM_6_NAME] --><option value="program-6">[PROGRAM_6_NAME]</option><!-- [/IF:PROGRAM_6_NAME] -->
+            <option value="program-1">Little Champs BJJ</option>
+            <option value="program-2">Kids BJJ</option>
+            <option value="program-3">Adult BJJ & Submission Grappling</option>
+            
+            
+            
             <option value="not-sure">Not Sure Yet</option>
           </select>
         </div>
         <p class="form-consent">
-          By submitting you agree to receive SMS/text messages from [SCHOOL_NAME] at the number provided.
+          By submitting you agree to receive SMS/text messages from Up Top Martial Arts Academy at the number provided.
           Message frequency varies. Reply STOP to unsubscribe. View our
-          <a href="[PRIVACY_POLICY_URL]">Privacy Policy</a>.
+          <a href="https://uptopmartialarts.com/privacy-policy">Privacy Policy</a>.
         </p>
         <button type="submit" class="form-submit">Get Free Trial + Schedule →</button>
       </form>
@@ -1484,33 +1291,33 @@
 
     <div class="footer-brand">
       <a href="#" class="logo">
-        <img src="[LOGO_IMAGE]" alt="" aria-hidden="true" style="height:36px;width:auto" onerror="this.style.display='none'">
-        [SCHOOL_NAME]
+        <img src="brand_assets/logo.png" alt="" aria-hidden="true" style="height:36px;width:auto" onerror="this.style.display='none'">
+        Up Top Martial Arts Academy
       </a>
-      <p>[SCHOOL_NAME]<!-- [IF:YEAR_FOUNDED] --> has been [CITY]'s trusted [MARTIAL_ART] school since [YEAR_FOUNDED] and<!-- [/IF:YEAR_FOUNDED] --> develops confidence, discipline, and real self-defense skills in students of all ages and experience levels.</p>
+      <p>Up Top Martial Arts Academy develops confidence, discipline, and real self-defense skills in students of all ages and experience levels.</p>
       <div class="social-links" aria-label="Social media links">
-        <!-- [IF:FACEBOOK_URL] -->
-        <a href="[FACEBOOK_URL]" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+        
+        <a href="https://www.facebook.com/UpTopMartialArts" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
         </a>
-        <!-- [/IF:FACEBOOK_URL] -->
-        <!-- [IF:INSTAGRAM_URL] -->
-        <a href="[INSTAGRAM_URL]" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+        
+        
+        <a href="https://www.instagram.com/uptopmartialarts/" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" aria-hidden="true" fill="white"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
         </a>
-        <!-- [/IF:INSTAGRAM_URL] -->
+        
       </div>
     </div>
 
     <div class="footer-col">
       <h3>Programs</h3>
       <ul>
-        <!-- [IF:PROGRAM_1_NAME] --><li><a href="program-1.html">[PROGRAM_1_NAME]</a></li><!-- [/IF:PROGRAM_1_NAME] -->
-        <!-- [IF:PROGRAM_2_NAME] --><li><a href="program-2.html">[PROGRAM_2_NAME]</a></li><!-- [/IF:PROGRAM_2_NAME] -->
-        <!-- [IF:PROGRAM_3_NAME] --><li><a href="program-3.html">[PROGRAM_3_NAME]</a></li><!-- [/IF:PROGRAM_3_NAME] -->
-        <!-- [IF:PROGRAM_4_NAME] --><li><a href="program-4.html">[PROGRAM_4_NAME]</a></li><!-- [/IF:PROGRAM_4_NAME] -->
-        <!-- [IF:PROGRAM_5_NAME] --><li><a href="program-5.html">[PROGRAM_5_NAME]</a></li><!-- [/IF:PROGRAM_5_NAME] -->
-        <!-- [IF:PROGRAM_6_NAME] --><li><a href="program-6.html">[PROGRAM_6_NAME]</a></li><!-- [/IF:PROGRAM_6_NAME] -->
+        <li><a href="program-1.html">Little Champs BJJ</a></li>
+        <li><a href="program-2.html">Kids BJJ</a></li>
+        <li><a href="program-3.html">Adult BJJ & Submission Grappling</a></li>
+        
+        
+        
       </ul>
     </div>
 
@@ -1522,7 +1329,7 @@
         <li><a href="#" onclick="openModal('modal-kit');return false">Pricing &amp; Schedule</a></li>
         <li><a href="#google-reviews">Reviews</a></li>
         <li><a href="news.html">News &amp; Updates</a></li>
-        <li><a href="[PRIVACY_POLICY_URL]">Privacy Policy</a></li>
+        <li><a href="https://uptopmartialarts.com/privacy-policy">Privacy Policy</a></li>
       </ul>
     </div>
 
@@ -1531,19 +1338,16 @@
       <address style="font-style:normal">
         <div class="footer-contact-row">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-          [ADDRESS_LINE_1]<br>[CITY], [STATE] [ZIP]
+          87 Berdan Ave, Suite 1<br>Wayne, NJ 07470
         </div>
         <div class="footer-contact-row">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-          <a href="tel:[PHONE]">[PHONE]</a>
+          <a href="tel:(973) 692-1991">(973) 692-1991</a>
         </div>
-        <!-- [IF:EMAIL] --><div class="footer-contact-row">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-          <a href="mailto:[EMAIL]">[EMAIL]</a>
-        </div><!-- [/IF:EMAIL] -->
+        
         <div class="footer-contact-row">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
-          [HOURS]
+          Mon–Thu 11:30am–2pm & 3–9:30pm · Fri 3–9:30pm · Sat 10am–3pm · Sun 12–2pm
         </div>
       </address>
     </div>
@@ -1551,9 +1355,9 @@
   </div>
 
   <div class="footer-bottom">
-    <p>© [CURRENT_YEAR] [SCHOOL_NAME]. All rights reserved.</p>
+    <p>© 2026 Up Top Martial Arts Academy. All rights reserved.</p>
     <div class="footer-legal">
-      <a href="[PRIVACY_POLICY_URL]">Privacy Policy</a>
+      <a href="https://uptopmartialarts.com/privacy-policy">Privacy Policy</a>
       <a href="#">Terms of Service</a>
       <a href="#">Sitemap</a>
     </div>
@@ -1572,7 +1376,7 @@
       <h2 class="modal-title" id="title-trial">Book Your Free Intro Session</h2>
       <p class="modal-sub">No commitment. No experience needed. Come try us free.</p>
 
-      <form class="modal-form" id="form-trial" onsubmit="submitModal(event,'modal-trial','[TRIAL_WEBHOOK_URL]')">
+      <form class="modal-form" id="form-trial" onsubmit="submitModal(event,'modal-trial','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
         <input type="hidden" name="lead_source" value="trial">
         <div class="field">
           <label for="tr-name">Name</label>
@@ -1590,19 +1394,19 @@
           <label for="tr-program">Program</label>
           <select id="tr-program" name="program">
             <option value="" disabled selected>Select a program…</option>
-            <!-- [IF:PROGRAM_1_NAME] --><option value="program-1">[PROGRAM_1_NAME]</option><!-- [/IF:PROGRAM_1_NAME] -->
-            <!-- [IF:PROGRAM_2_NAME] --><option value="program-2">[PROGRAM_2_NAME]</option><!-- [/IF:PROGRAM_2_NAME] -->
-            <!-- [IF:PROGRAM_3_NAME] --><option value="program-3">[PROGRAM_3_NAME]</option><!-- [/IF:PROGRAM_3_NAME] -->
-            <!-- [IF:PROGRAM_4_NAME] --><option value="program-4">[PROGRAM_4_NAME]</option><!-- [/IF:PROGRAM_4_NAME] -->
-            <!-- [IF:PROGRAM_5_NAME] --><option value="program-5">[PROGRAM_5_NAME]</option><!-- [/IF:PROGRAM_5_NAME] -->
-            <!-- [IF:PROGRAM_6_NAME] --><option value="program-6">[PROGRAM_6_NAME]</option><!-- [/IF:PROGRAM_6_NAME] -->
+            <option value="program-1">Little Champs BJJ</option>
+            <option value="program-2">Kids BJJ</option>
+            <option value="program-3">Adult BJJ & Submission Grappling</option>
+            
+            
+            
             <option value="not-sure">Not Sure</option>
           </select>
         </div>
         <p class="modal-consent">
-          By submitting you agree to receive SMS messages from [SCHOOL_NAME].
+          By submitting you agree to receive SMS messages from Up Top Martial Arts Academy.
           Reply STOP to unsubscribe. Msg &amp; data rates may apply.
-          <a href="[PRIVACY_POLICY_URL]">Privacy Policy</a>.
+          <a href="https://uptopmartialarts.com/privacy-policy">Privacy Policy</a>.
         </p>
         <button type="submit" class="modal-submit">Reserve My Free Session →</button>
       </form>
@@ -1611,7 +1415,7 @@
     <div class="modal-success" id="modal-trial-success">
       <div class="success-icon">🥋</div>
       <h3 class="success-title">You're Booked!</h3>
-      <p class="success-body">We'll be in touch within 24 hours to confirm your free trial. We can't wait to meet you at [SCHOOL_NAME]!</p>
+      <p class="success-body">We'll be in touch within 24 hours to confirm your free trial. We can't wait to meet you at Up Top Martial Arts Academy!</p>
     </div>
   </div>
 </div>
@@ -1628,7 +1432,7 @@
       <h2 class="modal-title" id="title-kit">Looking For Our Pricing?</h2>
       <p class="modal-sub">Fill out the form below and one of our coaches will send you our pricing, class schedule, and exclusive promo information.</p>
 
-      <form class="modal-form" id="form-kit" onsubmit="submitModal(event,'modal-kit','[STARTER_KIT_WEBHOOK_URL]')">
+      <form class="modal-form" id="form-kit" onsubmit="submitModal(event,'modal-kit','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
         <input type="hidden" name="lead_source" value="starter_kit">
         <div class="field">
           <label for="kit-name">Name</label>
@@ -1646,19 +1450,19 @@
           <label for="kit-program">Program</label>
           <select id="kit-program" name="program">
             <option value="" disabled selected>Select a program…</option>
-            <!-- [IF:PROGRAM_1_NAME] --><option value="program-1">[PROGRAM_1_NAME]</option><!-- [/IF:PROGRAM_1_NAME] -->
-            <!-- [IF:PROGRAM_2_NAME] --><option value="program-2">[PROGRAM_2_NAME]</option><!-- [/IF:PROGRAM_2_NAME] -->
-            <!-- [IF:PROGRAM_3_NAME] --><option value="program-3">[PROGRAM_3_NAME]</option><!-- [/IF:PROGRAM_3_NAME] -->
-            <!-- [IF:PROGRAM_4_NAME] --><option value="program-4">[PROGRAM_4_NAME]</option><!-- [/IF:PROGRAM_4_NAME] -->
-            <!-- [IF:PROGRAM_5_NAME] --><option value="program-5">[PROGRAM_5_NAME]</option><!-- [/IF:PROGRAM_5_NAME] -->
-            <!-- [IF:PROGRAM_6_NAME] --><option value="program-6">[PROGRAM_6_NAME]</option><!-- [/IF:PROGRAM_6_NAME] -->
+            <option value="program-1">Little Champs BJJ</option>
+            <option value="program-2">Kids BJJ</option>
+            <option value="program-3">Adult BJJ & Submission Grappling</option>
+            
+            
+            
             <option value="not-sure">Not Sure</option>
           </select>
         </div>
         <p class="modal-consent">
-          By submitting you agree to receive SMS messages and promotional content from [SCHOOL_NAME].
+          By submitting you agree to receive SMS messages and promotional content from Up Top Martial Arts Academy.
           Reply STOP to unsubscribe. Msg &amp; data rates may apply.
-          <a href="[PRIVACY_POLICY_URL]">Privacy Policy</a>.
+          <a href="https://uptopmartialarts.com/privacy-policy">Privacy Policy</a>.
         </p>
         <button type="submit" class="modal-submit">Send Me The Info →</button>
       </form>
@@ -1758,7 +1562,7 @@
       <div class="quiz-progress"><div class="quiz-bar" style="width:100%"></div></div>
       <h2 class="modal-title">Almost There!</h2>
       <p class="modal-sub">We found the perfect program for you. Enter your info and we'll send your personalized recommendation.</p>
-      <form class="modal-form" id="form-quiz" onsubmit="submitModal(event,'modal-quiz','[QUIZ_WEBHOOK_URL]')">
+      <form class="modal-form" id="form-quiz" onsubmit="submitModal(event,'modal-quiz','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
         <input type="hidden" name="lead_source" value="quiz">
         <input type="hidden" name="quizAnswers" id="quiz-answers">
         <div class="field">
@@ -1774,9 +1578,9 @@
           <input id="qz-phone" type="tel" name="phone" placeholder="(555) 555-5555" required autocomplete="tel">
         </div>
         <p class="modal-consent">
-          By submitting you agree to receive SMS messages from [SCHOOL_NAME].
+          By submitting you agree to receive SMS messages from Up Top Martial Arts Academy.
           Reply STOP to unsubscribe. Msg &amp; data rates may apply.
-          <a href="[PRIVACY_POLICY_URL]">Privacy Policy</a>.
+          <a href="https://uptopmartialarts.com/privacy-policy">Privacy Policy</a>.
         </p>
         <button type="submit" class="modal-submit">Get My Personalized Plan →</button>
       </form>
@@ -1927,7 +1731,7 @@
         document.querySelectorAll('#modal-quiz .quiz-step').forEach(function (s) { s.classList.remove('active'); });
         document.getElementById('qz-success').classList.add('active');
       } else if (modalId === 'modal-trial') {
-        window.location.href = '[BOOKING_CALENDAR_URL]';
+        window.location.href = 'https://PLACEHOLDER-replace-with-real-GHL-webhook';
       } else {
         var body    = document.getElementById(modalId + '-body');
         var success = document.getElementById(modalId + '-success');
@@ -1947,7 +1751,7 @@
     btn.textContent = 'Sending…';
     btn.disabled    = true;
 
-    var url = '[FINAL_CTA_WEBHOOK_URL]';
+    var url = 'https://PLACEHOLDER-replace-with-real-GHL-webhook';
     if (url.charAt(0) !== '[') {
       fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
     }

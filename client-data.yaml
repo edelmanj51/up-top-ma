@@ -5,99 +5,83 @@
 # ─────────────────────────────────────────────────────────────────────────────
 
 # ── Identity ──────────────────────────────────────────────────────────────────
-SLUG: "up-top-ma"                         # Folder name, GitHub repo, Cloudflare Pages project
-GOOGLE_PLACE_ID: ""                     # From Places API lookup — e.g. ChIJtest123
+SLUG: "up-top-ma"
+GOOGLE_PLACE_ID: "ChIJe2VQv-wCw4kR5fQTInGSweo"
 SCHOOL_NAME: "Up Top Martial Arts Academy"
-MARTIAL_ART: ""                         # e.g. Brazilian Jiu-Jitsu, Karate, Taekwondo, MMA
-SITE_URL: "https://www.uptopmartialarts.com"       # Full URL with https://
+MARTIAL_ART: "Brazilian Jiu-Jitsu"
+SITE_URL: "https://www.uptopmartialarts.com"
 DOMAIN: "uptopmartialarts.com"
 
 # ── Location ──────────────────────────────────────────────────────────────────
-CITY: ""
-STATE: ""                               # 2-letter abbreviation, e.g. MD
-ZIP: ""
-ADDRESS_LINE_1: ""
+CITY: "Wayne"
+STATE: "NJ"
+ZIP: "07470"
+ADDRESS_LINE_1: "87 Berdan Ave, Suite 1"
 
 # ── Contact ───────────────────────────────────────────────────────────────────
-PHONE: ""                               # Format: (555) 555-5555
+PHONE: "(973) 692-1991"
 EMAIL: ""
-HOURS: ""                               # e.g. Mon–Fri 4pm–9pm · Sat 10am–2pm
+HOURS: "Mon–Thu 11:30am–2pm & 3–9:30pm · Fri 3–9:30pm · Sat 10am–3pm · Sun 12–2pm"
 
 # ── Founding year (optional — leave blank if new school) ──────────────────────
 YEAR_FOUNDED: ""
 
 # ── Branding ──────────────────────────────────────────────────────────────────
-PRIMARY_COLOR: ""                       # e.g. #cc0000
-SECONDARY_COLOR: ""                     # e.g. #ffc700
-LOGO_IMAGE: brand_assets/logo.png       # Drop logo.png in brand_assets/ — auto-populated
-FACEBOOK_URL: ""                        # Full URL or leave blank
-INSTAGRAM_URL: ""                       # Full URL or leave blank
+PRIMARY_COLOR: "#015B7E"
+SECONDARY_COLOR: "#29292B"
+LOGO_IMAGE: brand_assets/logo.png
+FACEBOOK_URL: "https://www.facebook.com/UpTopMartialArts"
+INSTAGRAM_URL: "https://www.instagram.com/uptopmartialarts/"
 
 # ── Hero section ──────────────────────────────────────────────────────────────
-# Drop hero.jpg in images/hero/ — HERO_IMAGE is auto-populated
-HERO_HEADLINE: ""                       # Main headline, e.g. "Train Like a Champion"
-HERO_SUBHEADLINE: ""                    # Optional subheadline below main headline
-HERO_SUBTEXT: ""                        # Supporting copy below the headline
+HERO_HEADLINE: "Wayne's Premier Brazilian Jiu-Jitsu Academy"
+HERO_SUBHEADLINE: "BJJ · Submission Grappling · Self-Defense in Wayne, NJ"
+HERO_SUBTEXT: "Programs for ages 4 through adult. No experience needed — all levels welcome."
 
 # ── Social proof ──────────────────────────────────────────────────────────────
-# SHOW_PROOF_BAR: set to "false" for new schools or unverified review counts
 SHOW_PROOF_BAR: "true"
-STAR_RATING: ""                         # From Google — must include decimal, e.g. 4.9
-REVIEW_COUNT: ""                        # Plain integer, e.g. 47 (no + symbol)
+STAR_RATING: "5.0"
+REVIEW_COUNT: "104"
 
 # ── About section ─────────────────────────────────────────────────────────────
-ABOUT_TEXT: ""                          # 2 sentences about the school and community
+ABOUT_TEXT: "Up Top Martial Arts Academy is Wayne, NJ's premier center for Brazilian Jiu-Jitsu and submission grappling, with programs for ages 4 through adult in a welcoming, community-driven environment. Head instructor Yanni Hronakis — a 2nd Degree Black Belt through the Renzo Gracie lineage — trains alongside his students seven days a week, competing at every level to push both himself and his team to new heights."
 
 # ── Instructor 1 (required) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-1/ — auto-populated
-INSTRUCTOR_1_NAME: ""
-INSTRUCTOR_1_TITLE: ""                  # e.g. Head Instructor & 4th Degree Black Belt
-INSTRUCTOR_1_BIO: ""                    # 2-3 sentences, third person
+INSTRUCTOR_1_NAME: "Ioannis \"Yanni\" Hronakis"
+INSTRUCTOR_1_TITLE: "Owner & Head Instructor · 2nd Degree BJJ Black Belt"
+INSTRUCTOR_1_BIO: "Yanni Hronakis holds a 2nd Degree Black Belt in Brazilian Jiu-Jitsu under Jamie Cruz — one of the first American Black Belts under Renzo Gracie — and a 4th Degree Black Belt in Taekwondo, with additional training in Muay Thai Kickboxing. He began martial arts at age 8, started assisting classes at 16, and has been competing alongside his students ever since, regularly appearing on tournament podiums across New Jersey and beyond. You'll find him on the mats every single day, whether coaching, drilling, or rolling with students of all ages and levels."
 
-# ── Instructor 2 (optional) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-2/ — auto-populated
-INSTRUCTOR_2_NAME: ""
-INSTRUCTOR_2_TITLE: ""
-INSTRUCTOR_2_BIO: ""
+# ── Program 1 ─────────────────────────────────────────────────────────────────
+PROGRAM_1_NAME: "Little Champs BJJ"
+PROGRAM_1_AGE_RANGE: "Ages 4–6"
+PROGRAM_1_DAYS: "Mon, Tue, Wed & Thu"
+PROGRAM_1_SESSION_LEN: "45-min classes"
+PROGRAM_1_DESCRIPTION: "Our youngest grapplers learn balance, focus, and confidence through age-appropriate BJJ fundamentals — in a fun, safe environment designed specifically for little ones ages 4–6."
+PROGRAM_1_AUDIENCE_ADULTS: ""
+PROGRAM_1_AUDIENCE_KIDS: "1"
+PROGRAM_1_AUDIENCE_TEENS: ""
 
-# ── Instructor 3 (optional) ───────────────────────────────────────────────────
-# Drop photo in images/instructor/instructor-3/ — auto-populated
-INSTRUCTOR_3_NAME: ""
-INSTRUCTOR_3_TITLE: ""
-INSTRUCTOR_3_BIO: ""
-
-# ── Program 1 (required) ──────────────────────────────────────────────────────
-# Drop photo in images/programs/program-1/ named main.jpg — auto-populated
-PROGRAM_1_NAME: ""
-PROGRAM_1_AGE_RANGE: ""                 # e.g. Ages 5–12
-PROGRAM_1_DAYS: ""                      # e.g. Mon & Wed / Tue & Thu
-PROGRAM_1_SESSION_LEN: ""              # e.g. 60-min classes
-PROGRAM_1_DESCRIPTION: ""              # 1-2 sentences
-PROGRAM_1_AUDIENCE_ADULTS: ""          # Set to "1" if adult program (shows adult gains copy)
-PROGRAM_1_AUDIENCE_KIDS: ""            # Set to "1" if kids program
-PROGRAM_1_AUDIENCE_TEENS: ""           # Set to "1" if teens program
-
-# ── Program 2 (optional) ──────────────────────────────────────────────────────
-PROGRAM_2_NAME: ""
-PROGRAM_2_AGE_RANGE: ""
-PROGRAM_2_DAYS: ""
-PROGRAM_2_SESSION_LEN: ""
-PROGRAM_2_DESCRIPTION: ""
+# ── Program 2 ─────────────────────────────────────────────────────────────────
+PROGRAM_2_NAME: "Kids BJJ"
+PROGRAM_2_AGE_RANGE: "Ages 7–13"
+PROGRAM_2_DAYS: "Mon, Tue, Wed, Thu & Sat"
+PROGRAM_2_SESSION_LEN: "60-min classes"
+PROGRAM_2_DESCRIPTION: "Split into age-appropriate groups, our Kids BJJ classes build technique, discipline, and competitive drive — with a strong emphasis on safety, self-defense, and having fun on the mats."
 PROGRAM_2_AUDIENCE_ADULTS: ""
-PROGRAM_2_AUDIENCE_KIDS: ""
+PROGRAM_2_AUDIENCE_KIDS: "1"
 PROGRAM_2_AUDIENCE_TEENS: ""
 
-# ── Program 3 (optional) ──────────────────────────────────────────────────────
-PROGRAM_3_NAME: ""
-PROGRAM_3_AGE_RANGE: ""
-PROGRAM_3_DAYS: ""
-PROGRAM_3_SESSION_LEN: ""
-PROGRAM_3_DESCRIPTION: ""
-PROGRAM_3_AUDIENCE_ADULTS: ""
+# ── Program 3 ─────────────────────────────────────────────────────────────────
+PROGRAM_3_NAME: "Adult BJJ & Submission Grappling"
+PROGRAM_3_AGE_RANGE: "Ages 14+"
+PROGRAM_3_DAYS: "Mon–Sat"
+PROGRAM_3_SESSION_LEN: "60-min classes"
+PROGRAM_3_DESCRIPTION: "Whether your goal is competition, fitness, self-defense, or just a better way to stay active — Up Top's adult program covers Brazilian Jiu-Jitsu, No-Gi submission grappling, and real-world techniques proven effective for all body types."
+PROGRAM_3_AUDIENCE_ADULTS: "1"
 PROGRAM_3_AUDIENCE_KIDS: ""
 PROGRAM_3_AUDIENCE_TEENS: ""
 
-# ── Program 4 (optional) ──────────────────────────────────────────────────────
+# ── Program 4–6 (optional) ────────────────────────────────────────────────────
 PROGRAM_4_NAME: ""
 PROGRAM_4_AGE_RANGE: ""
 PROGRAM_4_DAYS: ""
@@ -107,7 +91,6 @@ PROGRAM_4_AUDIENCE_ADULTS: ""
 PROGRAM_4_AUDIENCE_KIDS: ""
 PROGRAM_4_AUDIENCE_TEENS: ""
 
-# ── Program 5 (optional) ──────────────────────────────────────────────────────
 PROGRAM_5_NAME: ""
 PROGRAM_5_AGE_RANGE: ""
 PROGRAM_5_DAYS: ""
@@ -117,7 +100,6 @@ PROGRAM_5_AUDIENCE_ADULTS: ""
 PROGRAM_5_AUDIENCE_KIDS: ""
 PROGRAM_5_AUDIENCE_TEENS: ""
 
-# ── Program 6 (optional) ──────────────────────────────────────────────────────
 PROGRAM_6_NAME: ""
 PROGRAM_6_AGE_RANGE: ""
 PROGRAM_6_DAYS: ""
@@ -127,34 +109,46 @@ PROGRAM_6_AUDIENCE_ADULTS: ""
 PROGRAM_6_AUDIENCE_KIDS: ""
 PROGRAM_6_AUDIENCE_TEENS: ""
 
-# ── Class schedule (optional — builds the full schedule table on schedules.html)
-CLASS_SCHEDULE_HTML: ""                 # Full HTML table. Leave blank if no schedule yet.
+# ── Class schedule ────────────────────────────────────────────────────────────
+CLASS_SCHEDULE_HTML: |
+  <table class="schedule-table">
+    <thead><tr><th>Day</th><th>Hours</th></tr></thead>
+    <tbody>
+      <tr><td>Monday – Thursday</td><td>11:30 AM – 2:00 PM &amp; 3:00 – 9:30 PM</td></tr>
+      <tr><td>Friday</td><td>3:00 – 9:30 PM</td></tr>
+      <tr><td>Saturday</td><td>10:00 AM – 3:00 PM</td></tr>
+      <tr><td>Sunday</td><td>12:00 – 2:00 PM</td></tr>
+    </tbody>
+  </table>
 
-# ── Google reviewers (optional — up to 10) ────────────────────────────────────
-# REVIEWER_1_INITIAL is computed automatically from REVIEWER_1_NAME
-REVIEWER_1_NAME: ""
-REVIEWER_1_DATE: ""                     # e.g. 2 months ago
-REVIEWER_1_TEXT: ""
+# ── Google reviewers ──────────────────────────────────────────────────────────
+REVIEWER_1_NAME: "Effie Haralambidis"
+REVIEWER_1_DATE: "3 months ago"
+REVIEWER_1_TEXT: "I highly recommend UT for kids Jiu Jitsu. My son is a very shy 4 year old and I was very surprised when we walked in, met the owner, tried a class and was told by my son that he enjoyed it very much. My son is very happy when I say it's \"Jiu Jitsu day\". Yanni is very patient, knowledgeable, great with the kids and commands the room with great control."
 
-REVIEWER_2_NAME: ""
-REVIEWER_2_DATE: ""
-REVIEWER_2_TEXT: ""
+REVIEWER_2_NAME: "Maria Garo"
+REVIEWER_2_DATE: "3 months ago"
+REVIEWER_2_TEXT: "We love Up Top Martial Arts Academy! My six year old has been attending for two years and continues to learn discipline, build confidence and practice the art of BJJ. Yanni is an exceptional teacher who is patient yet firm when necessary. My son loves going!"
 
-REVIEWER_3_NAME: ""
-REVIEWER_3_DATE: ""
-REVIEWER_3_TEXT: ""
+REVIEWER_3_NAME: "Jordan"
+REVIEWER_3_DATE: "3 months ago"
+REVIEWER_3_TEXT: "One of the best JiuJitsu schools in the area. Yanni has made a great community and is a great instructor. His students are welcoming and talented. I'd recommend for anyone trying martial arts."
 
-# Add REVIEWER_4 through REVIEWER_10 as needed (same structure)
+REVIEWER_4_NAME: "Jeff Wells II"
+REVIEWER_4_DATE: "3 months ago"
+REVIEWER_4_TEXT: "Yanni is an excellent instructor, and the training partners are incredibly helpful, which makes the entire experience much easier. Great place to train."
 
-# ── GHL Webhooks (required — set these before the final build) ────────────────
-# Get these from GHL: Sub-account → Settings → Integrations → Webhooks
-TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
-FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-before-build"
+REVIEWER_5_NAME: "Michael Gerne"
+REVIEWER_5_DATE: "2 years ago"
+REVIEWER_5_TEXT: "I got into BJJ late in life at 45. Time and time again I was told by instructors and students about Yanni's technical expertise. It's a great place with a great group of men and women to train with. I've been there for over 2 years now and love it. Great workout and even better stress reliever. No contract lock down — when you have a great product, you don't need to force a contract on someone."
 
-# Get from GHL: Sub-account → Calendars → [Calendar] → Embed → Group Widget URL
-BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-before-build"
+# ── GHL Webhooks (REQUIRED — replace before site goes live) ──────────────────
+# These are placeholder values — Joe must set real GHL webhook URLs for Up Top
+TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
 
 # ── Privacy policy ────────────────────────────────────────────────────────────
-PRIVACY_POLICY_URL: "https://www.uptopmartialarts.com/privacy"
+PRIVACY_POLICY_URL: "https://uptopmartialarts.com/privacy-policy"
