@@ -104,6 +104,24 @@
     .sched-cta p{font-size:18px;opacity:.8;margin-bottom:36px;max-width:540px;margin-left:auto;margin-right:auto}
     .cta-pair{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
     @media(max-width:480px){.cta-pair{flex-direction:column;align-items:stretch}.cta-pair .btn{width:100%}}
+    /* ── Mobile card schedule ── */
+    .sched-cards{display:none}
+    @media(max-width:767px){
+      .schedule-wrap{display:none}
+      .sched-cards{display:block;max-width:600px;margin:0 auto}
+      .sched-card{background:var(--white);border-radius:12px;box-shadow:var(--shadow);margin-bottom:16px;overflow:hidden}
+      .sched-card-header{background:var(--dark);color:var(--white);padding:13px 16px}
+      .sched-card-name{font-size:15px;font-weight:800;line-height:1.2}
+      .sched-card-age{font-size:12px;opacity:.65;margin-top:3px}
+      .sched-card-sessions{padding:10px 12px;display:flex;flex-direction:column;gap:5px}
+      .sched-card-row{display:flex;align-items:baseline;gap:10px;padding:6px 8px;border-radius:6px;font-size:13px}
+      .sched-card-row.ks{background:#fef3c7;color:#92400e}
+      .sched-card-row.ad{background:#dbeafe;color:#1e3a5f}
+      .sched-card-row.cp{background:#fce7f3;color:#9d174d}
+      .sched-card-row.tm{background:#d1fae5;color:#065f46}
+      .sched-card-day{font-weight:800;font-size:11px;text-transform:uppercase;letter-spacing:.4px;min-width:36px;flex-shrink:0}
+      .sched-card-time{font-weight:600;line-height:1.3}
+    }
     /* ── Scroll reveal ── */
     .reveal{opacity:0;transform:translateY(28px);transition:opacity .55s ease,transform .55s ease}
     .reveal.visible{opacity:1;transform:translateY(0)}
@@ -360,6 +378,45 @@
   window.closeModal=function(id){var el=document.getElementById(id);if(!el)return;el.classList.remove('open');document.body.style.overflow=''};
   window.closeOnOverlay=function(e,id){if(e.target===e.currentTarget)closeModal(id)};
   document.addEventListener('keydown',function(e){if(e.key==='Escape'){document.querySelectorAll('.modal-overlay.open').forEach(function(m){m.classList.remove('open')});document.body.style.overflow=''}});
+  // Build mobile card view from table data
+  (function(){
+    var table=document.querySelector('table.sched');
+    if(!table)return;
+    var ths=Array.from(table.querySelectorAll('thead th')).slice(1).map(function(t){return t.textContent.trim()});
+    var typeMap={kids:'ks',adult:'ad',comp:'cp',teens:'tm'};
+    var cards=document.createElement('div');
+    cards.className='sched-cards reveal';
+    table.querySelectorAll('tbody tr').forEach(function(row){
+      var tds=row.querySelectorAll('td');
+      var hdr=tds[0];
+      var name=Array.from(hdr.childNodes).filter(function(n){return n.nodeType===3}).map(function(n){return n.textContent.trim()}).join('');
+      var age=hdr.querySelector('small');
+      var sessions=[];
+      for(var i=1;i<tds.length;i++){
+        tds[i].querySelectorAll('.time-slot').forEach(function(s){
+          var type='ad';
+          s.classList.forEach(function(c){if(typeMap[c])type=typeMap[c];});
+          sessions.push({day:ths[i-1],time:s.textContent.trim(),type:type});
+        });
+      }
+      if(!sessions.length)return;
+      var card=document.createElement('div');
+      card.className='sched-card';
+      card.innerHTML='<div class="sched-card-header">'
+        +'<div class="sched-card-name">'+name+'</div>'
+        +(age?'<div class="sched-card-age">'+age.textContent+'</div>':'')
+        +'</div>'
+        +'<div class="sched-card-sessions">'
+        +sessions.map(function(s){return'<div class="sched-card-row '+s.type+'">'
+          +'<span class="sched-card-day">'+s.day+'</span>'
+          +'<span class="sched-card-time">'+s.time+'</span>'
+          +'</div>';}).join('')
+        +'</div>';
+      cards.appendChild(card);
+    });
+    var wrap=document.querySelector('.schedule-wrap');
+    if(wrap)wrap.parentNode.insertBefore(cards,wrap.nextSibling);
+  }());
   window.submitModal=function(e,mid,url){
     e.preventDefault();var form=e.target,data={};new FormData(form).forEach(function(v,k){data[k]=v});
     var btn=form.querySelector('[type=submit]');btn.textContent='Sending…';btn.disabled=true;
