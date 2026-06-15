@@ -318,7 +318,7 @@
     <div id="modal-trial-body">
       <h2 class="modal-title" id="title-trial">Book Your Free Trial Today</h2>
       <p class="modal-sub">No commitment. No experience needed. Just show up and try it free.</p>
-      <form class="modal-form" onsubmit="submitModal(event,'modal-trial','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
+      <form class="modal-form" onsubmit="submitModal(event,'modal-trial','https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS')">
         <input type="hidden" name="lead_source" value="trial">
         <div class="field"><label for="tr-firstName">First Name</label><input id="tr-firstName" type="text" name="first_name" placeholder="First Name" required autocomplete="given-name"></div><div class="field"><label for="tr-lastName">Last Name</label><input id="tr-lastName" type="text" name="last_name" placeholder="Last Name" required autocomplete="family-name"></div>
         <div class="field"><label for="tr-email">Email</label><input id="tr-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
@@ -339,7 +339,7 @@
     <div id="modal-kit-body">
       <h2 class="modal-title" id="title-kit">Looking For Our Pricing?</h2>
       <p class="modal-sub">Fill out the form below and one of our coaches will send you our pricing, class schedule, and EXCLUSIVE promo information for our classes.</p>
-      <form class="modal-form" onsubmit="submitModal(event,'modal-kit','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
+      <form class="modal-form" onsubmit="submitModal(event,'modal-kit','https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS')">
         <input type="hidden" name="lead_source" value="starter_kit">
         <div class="field"><label for="kit-firstName">First Name</label><input id="kit-firstName" type="text" name="first_name" placeholder="First Name" required autocomplete="given-name"></div><div class="field"><label for="kit-lastName">Last Name</label><input id="kit-lastName" type="text" name="last_name" placeholder="Last Name" required autocomplete="family-name"></div>
         <div class="field"><label for="kit-email">Email</label><input id="kit-email" type="email" name="email" placeholder="your@email.com" required autocomplete="email"></div>
@@ -380,7 +380,7 @@
     e.preventDefault();var form=e.target,data={};new FormData(form).forEach(function(v,k){data[k]=v});
     var btn=form.querySelector('[type=submit]');btn.textContent='Sending…';btn.disabled=true;
     if(url&&url.charAt(0)!=='[')fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).catch(function(){});
-    setTimeout(function(){if(mid==='modal-trial'){window.location.href='https://PLACEHOLDER-replace-with-real-GHL-webhook';}else{var b=document.getElementById(mid+'-body'),s=document.getElementById(mid+'-success');if(b)b.style.display='none';if(s)s.style.display='block';}},550);
+    setTimeout(function(){if(mid==='modal-trial'){window.location.href='https://api.leadconnectorhq.com/widget/group/XIMRP13u1bpd1RHEwk1i';}else{var b=document.getElementById(mid+'-body'),s=document.getElementById(mid+'-success');if(b)b.style.display='none';if(s)s.style.display='block';}},550);
   };
 }());
 

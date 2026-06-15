@@ -136,11 +136,11 @@ REVIEWER_5_TEXT: "I got into BJJ late in life at 45. Time and time again I was t
 
 # ── GHL Webhooks (REQUIRED — replace before site goes live) ──────────────────
 # These are placeholder values — Joe must set real GHL webhook URLs for Up Top
-TRIAL_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
-STARTER_KIT_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
-QUIZ_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
-FINAL_CTA_WEBHOOK_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
-BOOKING_CALENDAR_URL: "https://PLACEHOLDER-replace-with-real-GHL-webhook"
+TRIAL_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS"
+STARTER_KIT_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS"
+QUIZ_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS"
+FINAL_CTA_WEBHOOK_URL: "https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS"
+BOOKING_CALENDAR_URL: "https://api.leadconnectorhq.com/widget/group/XIMRP13u1bpd1RHEwk1i"
 
 # ── Privacy policy ────────────────────────────────────────────────────────────
 PRIVACY_POLICY_URL: "https://uptopmartialarts.com/privacy-policy"

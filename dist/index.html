@@ -1376,7 +1376,7 @@
       <h2 class="modal-title" id="title-trial">Book Your Free Intro Session</h2>
       <p class="modal-sub">No commitment. No experience needed. Come try us free.</p>
 
-      <form class="modal-form" id="form-trial" onsubmit="submitModal(event,'modal-trial','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
+      <form class="modal-form" id="form-trial" onsubmit="submitModal(event,'modal-trial','https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS')">
         <input type="hidden" name="lead_source" value="trial">
         <div class="field">
           <label for="tr-firstName">First Name</label>
@@ -1436,7 +1436,7 @@
       <h2 class="modal-title" id="title-kit">Looking For Our Pricing?</h2>
       <p class="modal-sub">Fill out the form below and one of our coaches will send you our pricing, class schedule, and exclusive promo information.</p>
 
-      <form class="modal-form" id="form-kit" onsubmit="submitModal(event,'modal-kit','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
+      <form class="modal-form" id="form-kit" onsubmit="submitModal(event,'modal-kit','https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS')">
         <input type="hidden" name="lead_source" value="starter_kit">
         <div class="field">
           <label for="kit-firstName">First Name</label>
@@ -1570,7 +1570,7 @@
       <div class="quiz-progress"><div class="quiz-bar" style="width:100%"></div></div>
       <h2 class="modal-title">Almost There!</h2>
       <p class="modal-sub">We found the perfect program for you. Enter your info and we'll send your personalized recommendation.</p>
-      <form class="modal-form" id="form-quiz" onsubmit="submitModal(event,'modal-quiz','https://PLACEHOLDER-replace-with-real-GHL-webhook')">
+      <form class="modal-form" id="form-quiz" onsubmit="submitModal(event,'modal-quiz','https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS')">
         <input type="hidden" name="lead_source" value="quiz">
         <input type="hidden" name="quizAnswers" id="quiz-answers">
         <div class="field">
@@ -1743,7 +1743,7 @@
         document.querySelectorAll('#modal-quiz .quiz-step').forEach(function (s) { s.classList.remove('active'); });
         document.getElementById('qz-success').classList.add('active');
       } else if (modalId === 'modal-trial') {
-        window.location.href = 'https://PLACEHOLDER-replace-with-real-GHL-webhook';
+        window.location.href = 'https://api.leadconnectorhq.com/widget/group/XIMRP13u1bpd1RHEwk1i';
       } else {
         var body    = document.getElementById(modalId + '-body');
         var success = document.getElementById(modalId + '-success');
@@ -1763,7 +1763,7 @@
     btn.textContent = 'Sending…';
     btn.disabled    = true;
 
-    var url = 'https://PLACEHOLDER-replace-with-real-GHL-webhook';
+    var url = 'https://services.leadconnectorhq.com/hooks/TRF6O1CyILL2CNOmY0Qp/webhook-trigger/Gu80gW185cFrlgE6MrXS';
     if (url.charAt(0) !== '[') {
       fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }).catch(function () {});
     }
